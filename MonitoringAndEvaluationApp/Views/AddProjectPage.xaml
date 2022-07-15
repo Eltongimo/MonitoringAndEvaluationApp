@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonitoringAndEvaluationApp.Views.AddProjectPage"
+             Shell.FlyoutBehavior="Disabled"
+             Title="ADICIONAR PROJECTO"
+             >
+    <StackLayout Padding="10, 10, 10, 10">
+        
+        <Entry Placeholder="Projecto" x:Name="projectName"/>
+
+        <Entry Placeholder="Nome do operador" x:Name="operatorName"/>
+
+        <Entry  Placeholder="Actividade" x:Name="activity"/>
+
+        <Button Text="Gravar" Clicked="SubmitForm"/>
+    </StackLayout>
+</ContentPage>

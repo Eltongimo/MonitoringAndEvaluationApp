@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonitoringAndEvaluationApp.Views.ShowProjectDetails">
+
+
+    <ContentPage.ToolbarItems >
+        <ToolbarItem Text="APAGAR"  Clicked="RemoveProject" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            
+            <Label Text="Nome do Projecto: " x:Name="projectName" FontSize="Medium"/>
+            <Label Text="Nome do Operador: " x:Name="operatorName" FontSize="Medium"/>
+            <Label Text="Actividade: " x:Name="activity" FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

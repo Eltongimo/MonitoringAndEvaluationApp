@@ -14,7 +14,6 @@
         <ListView x:Name="projectView" SelectionMode="Single"
                   BackgroundColor="Transparent"
                   ItemSelected="HandleSelectedItem"
-                  
                   >
             <ListView.ItemTemplate>
                 <DataTemplate >

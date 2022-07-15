@@ -42,6 +42,7 @@ namespace MonitoringAndEvaluationApp.Views
                     DisplayAlert("Message", "Erro ao apagar projecto", "Ok");
             }
             Navigation.PushAsync(new TaticoAddToProject());
+
         }
     }
 }

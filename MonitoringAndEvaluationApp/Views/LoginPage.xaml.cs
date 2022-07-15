@@ -23,22 +23,20 @@ namespace MonitoringAndEvaluationApp.Views
 
             var name = usermane.Text;
 
+            // Utilizador Tatico
             if ( name.ToString().Equals("elton"))
             {
                 Navigation.PushAsync(new TaticoAddToProject()); 
-
+          
+                // Utilizador Operacional
             }else if (name.ToString().Equals("luis"))
             {
-                return;
+                Navigation.PushAsync(new OperationalHome());
             }else if (name.ToString().Equals("Ash"))
             {
 
             }
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

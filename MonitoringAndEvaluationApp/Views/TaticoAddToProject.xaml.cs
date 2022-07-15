@@ -34,7 +34,6 @@ namespace MonitoringAndEvaluationApp
                 List<Project> projects = conn.Table<Project>().ToList();
                 projectView.ItemsSource = projects;
             }
-
         }
 
         public void HandleSelectedItem(object sender, SelectedItemChangedEventArgs item)

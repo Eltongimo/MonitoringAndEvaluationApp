@@ -11,6 +11,8 @@ C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluation
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\OperationalHome.xaml.g.cs
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\ShowProjectDetails.xaml.g.cs
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\TaticoAddToProject.xaml.g.cs
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\MonitoringAndEvaluationApp.AssemblyInfoInputs.cache
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\MonitoringAndEvaluationApp.AssemblyInfo.cs
@@ -20,4 +22,4 @@ C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluation
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\refint\MonitoringAndEvaluationApp.dll
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\MonitoringAndEvaluationApp.pdb
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\ref\MonitoringAndEvaluationApp.dll
-C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\ShowProjectDetails.xaml.g.cs
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\ShowAndAddOperational.xaml.g.cs

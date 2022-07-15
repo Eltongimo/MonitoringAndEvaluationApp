@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonitoringAndEvaluationApp.Views.ShowAndAddOperational"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Utilizador Operacional"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Utilizador Operacional"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="projectName" />
+            <Label x:Name="objective" />
+            <Label x:Name="activity" />
+            <Label x:Name="conseguimentoLevel" />
+            <Label x:Name="necessaryActions" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

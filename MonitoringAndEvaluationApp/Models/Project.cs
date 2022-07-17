@@ -12,6 +12,14 @@ namespace MonitoringAndEvaluationApp.Models
         public string ProjectName { get; set; }
         public string OperatorName { get; set; }
         public string Activity { get; set; }
+        public string  TypeOfActivity { get; set; }
+        public string MacroActivity { get; set; }
+        public string SpecificObjective { get; set; }
+        
+        public string peopleInvolved { get; set; }
+        public string PartnerOrganizations { get; set; }
+        public string PartnerInstituitions { get; set; }
+                
      }
 }
 

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MonitoringAndEvaluationApp.Models;
+using SQLite;
 
 namespace MonitoringAndEvaluationApp.Views
 {
@@ -25,5 +26,15 @@ namespace MonitoringAndEvaluationApp.Views
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<Project>();
+                List<Project> projects = conn.Table<Project>().ToList();
+               // projectView.ItemsSource = projects;
+            }
+        }
     }
 }

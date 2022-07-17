@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SQLite;
-using MonitoringAndEvaluationApp.Models;
 using Xamarin.Forms;
+using MonitoringAndEvaluationApp.Models;
 using Xamarin.Forms.Xaml;
 
 namespace MonitoringAndEvaluationApp.Views
@@ -34,7 +34,7 @@ namespace MonitoringAndEvaluationApp.Views
         {
             Project selectedProject = ((ListView)sender).SelectedItem as Project;
 
-           Navigation.PushModalAsync(new ShowAndAddOperational());
+           Navigation.PushAsync(new ShowAndAddOperational());
         }
     }
 }

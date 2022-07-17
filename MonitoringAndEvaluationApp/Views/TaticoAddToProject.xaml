@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MonitoringAndEvaluationApp.TaticoAddToProject"
              Shell.FlyoutBehavior="Disabled"
-             Title="UTILIZADOR TACTICO"
+             Title="Utilizador Tactico"
              >
 
     <ContentPage.ToolbarItems >
-        <ToolbarItem Text="ADD"  Clicked="AddProject" />
+        <ToolbarItem Text="Add"  Clicked="AddProject" />
     </ContentPage.ToolbarItems>
   
     <StackLayout>

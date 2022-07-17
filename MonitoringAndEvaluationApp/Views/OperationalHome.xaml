@@ -5,7 +5,7 @@
              Shell.FlyoutBehavior="Disabled"
              Title="Utilizador Operacional"
              >
-    
+  
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="projectViewContent"

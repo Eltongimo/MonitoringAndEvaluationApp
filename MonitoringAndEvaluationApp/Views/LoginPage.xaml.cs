@@ -27,7 +27,6 @@ namespace MonitoringAndEvaluationApp.Views
             if ( name.ToString().Equals("elton"))
             {
                 Navigation.PushAsync(new TaticoAddToProject()); 
-          
                 // Utilizador Operacional
             }else if (name.ToString().Equals("luis"))
             {

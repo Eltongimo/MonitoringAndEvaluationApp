@@ -36,6 +36,11 @@ namespace MonitoringAndEvaluationApp
             }
         }
 
+        private void SeeMore(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ShowTaticoMore());
+        }
+
         public void HandleSelectedItem(object sender, SelectedItemChangedEventArgs item)
         {
            Project selectedProject =  ((ListView)sender).SelectedItem as Project;

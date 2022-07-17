@@ -18,6 +18,10 @@ namespace MonitoringAndEvaluationApp.Views
             InitializeComponent();
         }
 
+        private void CancelSubmission(object s,EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
         private void SubmitForm(object s, EventArgs e)
         {
 
@@ -25,9 +29,14 @@ namespace MonitoringAndEvaluationApp.Views
             {
                 ProjectName = projectName.Text,
                 OperatorName = operatorName.Text,
-                Activity = activity.Text
-
-            };
+                Activity = activity.Text,
+                TypeOfActivity = typeOfActivity.Text,
+                MacroActivity = macroActivity.Text,
+                SpecificObjective = specificObjective.Text,
+                PeopleInvolved = peopleInvolved.Text,
+                PartnerOrganizations = partnerOrganizations.Text,
+                PartnerInstituitions = partnerInstituitions.Text
+        };
             
             SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);
 

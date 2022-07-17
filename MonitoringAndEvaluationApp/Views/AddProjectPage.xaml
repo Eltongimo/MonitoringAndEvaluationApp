@@ -13,6 +13,20 @@
 
         <Entry  Placeholder="Actividade" x:Name="activity"/>
 
+        <Entry  Placeholder="Tipo de Actividade" x:Name="typeOfActivity"/>
+
+        <Entry  Placeholder="Actividade Macro" x:Name="macroActivity"/>
+
+        <Entry  Placeholder="Objectivo Especifico" x:Name="specificObjective"/>
+
+        <Entry  Placeholder="Pessoal do Projecto envolvido" x:Name="peopleInvolved"/>
+
+        <Entry  Placeholder="Organizaçoes Parceiras" x:Name="partnerOrganizations"/>
+
+        <Entry  Placeholder="Instituiçoes Parceiras" x:Name="partnerInstituitions"/>
+
         <Button Text="Gravar" Clicked="SubmitForm"/>
+
+        <Button Text="Cancelar" Background="Red" Clicked="CancelSubmission"/>
     </StackLayout>
 </ContentPage>

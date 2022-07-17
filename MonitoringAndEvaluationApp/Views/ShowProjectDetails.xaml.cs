@@ -29,6 +29,13 @@ namespace MonitoringAndEvaluationApp.Views
             projectName.Text += p.ProjectName;
             operatorName.Text += p.OperatorName;
             activity.Text += p.Activity;
+            typeOfActivity.Text += p.TypeOfActivity;
+            macroActivity.Text += p.MacroActivity;
+            specificObjective.Text += p.SpecificObjective;
+            peopleInvolved.Text += p.PeopleInvolved;
+            partnerOrganizations.Text += p.PartnerOrganizations;
+            partnerInstituitions.Text += p.PartnerInstituitions;
+
         }
 
         private void RemoveProject(object sender, EventArgs e)

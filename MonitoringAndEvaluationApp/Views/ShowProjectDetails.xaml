@@ -5,44 +5,31 @@
              Shell.FlyoutBehavior="Disabled"
              >
 
-
     <ContentPage.ToolbarItems >
         <ToolbarItem Text="APAGAR"  Clicked="RemoveProject" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-
-
-
-        <ContentPage.Content>
             <StackLayout Padding="10, 10,10,10">
-
-                <Frame 
-                BorderColor="#ccc"
-                CornerRadius="5"
-                BackgroundColor="White"
-                HasShadow="True"
-                Padding="10"
-                Margin="5">
-                    <Grid>
-                        <Label Text="Projecto: " FontAttributes="Bold"/>
-                        <Label  Grid.Row="1" Grid.Column="0" x:Name="projectName" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="2" Grid.Column="0" x:Name="operatorName" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="3" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="4" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="5" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="6" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="7" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="8" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                        <Label  Grid.Row="9" Grid.Column="0" x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
-                    </Grid>
-                </Frame>
+            <Frame 
+            BorderColor="#ccc"
+            CornerRadius="5"
+            BackgroundColor="White"
+            HasShadow="True"
+            Padding="10"
+            Margin="5">
+                <Grid>
+                    <Label  Grid.Row="1" FontAttributes="Bold" Text="Projecto: " Grid.Column="0" x:Name="projectName" FontSize="Medium" LineBreakMode="TailTruncation" VerticalOptions="End"/>
+                    <Label  Grid.Row="2" Grid.Column="0" Text="Operador: " x:Name="operatorName" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="3" Grid.Column="0" Text="Actividade: " x:Name="activity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="4" Grid.Column="0" Text="Tipo de Actividade: " x:Name="typeOfActivity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="5" Grid.Column="0" Text="Actividade Macro: " x:Name="macroActivity" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="6" Grid.Column="0" Text="Objectivo Especifico: " x:Name="specificObjective" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="7" Grid.Column="0" Text="Pessoal Envolvido: " x:Name="peopleInvolved" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="8" Grid.Column="0" Text="Organizaçoes Parceiras: " x:Name="partnerOrganizations" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="9" Grid.Column="0" Text="Instituiçoes Parceiras: " x:Name="partnerInstituitions" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                </Grid>
+             </Frame>
             </StackLayout>
         </ContentPage.Content>
-
-        <StackLayout>
-            
-
-        </StackLayout>
-    </ContentPage.Content>
 </ContentPage>

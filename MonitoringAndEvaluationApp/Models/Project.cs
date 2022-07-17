@@ -16,18 +16,9 @@ namespace MonitoringAndEvaluationApp.Models
         public string MacroActivity { get; set; }
         public string SpecificObjective { get; set; }
         
-        public string peopleInvolved { get; set; }
+        public string PeopleInvolved { get; set; }
         public string PartnerOrganizations { get; set; }
         public string PartnerInstituitions { get; set; }
                 
      }
 }
-
-/*
-    public string ActivityMacro { get; set; }
-    public string Result { get; set; }
-    public string specificObjective { get; set; }
-    public List<string> personelInvolved {get;set;}
-    public List<string> partnerOrganizations {get;set;}
-    public List<string> partnerInstituitions  {get;set;} 
- */

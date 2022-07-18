@@ -35,7 +35,22 @@ namespace MonitoringAndEvaluationApp.Views
                 SpecificObjective = specificObjective.Text,
                 PeopleInvolved = peopleInvolved.Text,
                 PartnerOrganizations = partnerOrganizations.Text,
-                PartnerInstituitions = partnerInstituitions.Text
+                PartnerInstituitions = partnerInstituitions.Text,
+                Date = date.Text,
+                Time = time.Text,
+                Location = location.Text,
+                Duration = duration.Text,
+                PresentPeople = presentPeople.Text,
+                ForecastedPeople = forecastedPeople.Text,
+                ParticipationPartners = participationPartners.Text,
+                ParticipationBeneficiary = participationBeneficiary.Text,
+                ParticipationInstituition = participationInstituition.Text,
+                ProductAndOutcome = productsAndOutcome.Text,
+                QLIndicator = qlIndicator.Text,
+                GoodPraticesLearned  = goodPraticeLearned.Text,
+                MistakesToNotBeenRepeated = mistakesToNotBeRepeated.Text,
+                FutureForwarding = futureForward.Text,
+                SourcesAndImages = imagesAndSources.Text,
         };
             
             SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);

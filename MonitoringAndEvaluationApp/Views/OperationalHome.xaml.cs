@@ -18,7 +18,6 @@ namespace MonitoringAndEvaluationApp.Views
             InitializeComponent();
         }
 
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -34,7 +33,8 @@ namespace MonitoringAndEvaluationApp.Views
         {
             Project selectedProject = ((ListView)sender).SelectedItem as Project;
 
-           Navigation.PushAsync(new ShowAndAddOperational());
+           Navigation.PushAsync(new ShowAndAddOperational(selectedProject));
+
         }
     }
 }

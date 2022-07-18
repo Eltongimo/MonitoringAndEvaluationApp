@@ -18,12 +18,8 @@ namespace MonitoringAndEvaluationApp.Views
         
         public ShowAndAddOperational(Project p)
         {
-            project = p;
-        }
-
-        public ShowAndAddOperational()
-        {
             InitializeComponent();
+            project = p;
         }
 
         protected override void OnAppearing()
@@ -31,8 +27,8 @@ namespace MonitoringAndEvaluationApp.Views
             base.OnAppearing();
             using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             {
-                conn.CreateTable<Project>();
-                List<Project> projects = conn.Table<Project>().ToList();
+               //   conn.CreateTable<Project>();
+               // List<Project> projects = conn.Table<Project>().ToList();
                // projectView.ItemsSource = projects;
             }
         }

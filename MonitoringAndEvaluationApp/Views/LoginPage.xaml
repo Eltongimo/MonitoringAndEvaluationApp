@@ -13,7 +13,7 @@
 
             <Frame 
                 BorderColor="#ccc"
-                CornerRadius="10"
+                CornerRadius="15"
                 HasShadow="True"
                 Padding="10"
                 Margin="10"
@@ -28,6 +28,7 @@
 
                     <Button Grid.Row="5" VerticalOptions="Center" Text="Entrar" Clicked="Button_Clicked" />
                     <Button Grid.Row="6" VerticalOptions="Center" Text="Registar" BackgroundColor="#ccc"/>
+
                 </Grid>
             </Frame>
      </StackLayout>

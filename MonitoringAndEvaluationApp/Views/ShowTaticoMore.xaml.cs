@@ -19,6 +19,11 @@ namespace MonitoringAndEvaluationApp.Views
         }
 
 
+        public void HandleSelectedItem(object sender, SelectedItemChangedEventArgs item)
+        {
+
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -28,6 +33,16 @@ namespace MonitoringAndEvaluationApp.Views
                 List<Project2> projects = conn.Table<Project2>().ToList();
                 projectView.ItemsSource = projects;
             }
+        }
+
+        private void AddProjectMoreDetails(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddNewProjectMoreDetails());
+        }
+
+        private void ShowMore(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(null);
         }
 
     }

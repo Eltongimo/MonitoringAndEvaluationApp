@@ -5,28 +5,60 @@
              Shell.FlyoutBehavior="Disabled"
              Title="ADICIONAR PROJECTO"
              >
-    <StackLayout Padding="10, 10, 10, 10">
-        
-        <Entry Placeholder="Projecto" x:Name="projectName"/>
+    <ScrollView>
+        <StackLayout Padding="10, 10, 10, 10">
 
-        <Entry Placeholder="Nome do operador" x:Name="operatorName"/>
+            <Entry Placeholder="Projecto" x:Name="projectName"/>
 
-        <Entry  Placeholder="Actividade" x:Name="activity"/>
+            <Entry Placeholder="Nome do operador" x:Name="operatorName"/>
 
-        <Entry  Placeholder="Tipo de Actividade" x:Name="typeOfActivity"/>
+            <Entry  Placeholder="Actividade" x:Name="activity"/>
 
-        <Entry  Placeholder="Actividade Macro" x:Name="macroActivity"/>
+            <Entry  Placeholder="Tipo de Actividade" x:Name="typeOfActivity"/>
 
-        <Entry  Placeholder="Objectivo Especifico" x:Name="specificObjective"/>
+            <Entry  Placeholder="Actividade Macro" x:Name="macroActivity"/>
 
-        <Entry  Placeholder="Pessoal do Projecto envolvido" x:Name="peopleInvolved"/>
+            <Entry  Placeholder="Objectivo Especifico" x:Name="specificObjective"/>
 
-        <Entry  Placeholder="Organizaçoes Parceiras" x:Name="partnerOrganizations"/>
+            <Entry  Placeholder="Pessoal do Projecto envolvido" x:Name="peopleInvolved"/>
 
-        <Entry  Placeholder="Instituiçoes Parceiras" x:Name="partnerInstituitions"/>
+            <Entry  Placeholder="Organizaçoes Parceiras" x:Name="partnerOrganizations"/>
 
-        <Button Text="Gravar" Clicked="SubmitForm"/>
+            <Entry  Placeholder="Instituiçoes Parceiras" x:Name="partnerInstituitions"/>
 
-        <Button Text="Cancelar" Background="Red" Clicked="CancelSubmission"/>
-    </StackLayout>
+            <Entry  Placeholder="Data" x:Name="date"/>
+
+            <Entry  Placeholder="Hora" x:Name="time"/>
+
+            <Entry  Placeholder="Lugar" x:Name="location"/>
+
+            <Entry  Placeholder="Duração" x:Name="duration"/>
+
+            <Entry  Placeholder="Pessoas Presentes" x:Name="presentPeople"/>
+
+            <Entry  Placeholder="Pessoas previstas" x:Name="forecastedPeople"/>
+
+            <Entry  Placeholder="Participação envolvendo beneficiarios" x:Name="participationBeneficiary"/>
+
+            <Entry  Placeholder="Participação envolvendo Parceiros" x:Name="participationPartners"/>
+
+            <Entry  Placeholder="Participação envolvendo Instituiçoes" x:Name="participationInstituition"/>
+
+            <Entry  Placeholder="Productos outcome de actividades" x:Name="productsAndOutcome"/>
+
+            <Entry  Placeholder="Indicadores de QL" x:Name="qlIndicator"/>
+
+            <Entry  Placeholder="Boas praticas aprendidas" x:Name="goodPraticeLearned"/>
+
+            <Entry  Placeholder="Erros a não ser repetidos" x:Name="mistakesToNotBeRepeated"/>
+
+            <Entry Placeholder="Encaminhamentos futuros" x:Name="futureForward"/>
+
+            <Entry Placeholder="Comprovantes e Imagens" x:Name="imagesAndSources"/>
+
+            <Button Text="Gravar" Clicked="SubmitForm"/>
+
+            <Button Text="Cancelar" Background="Red" Clicked="CancelSubmission"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

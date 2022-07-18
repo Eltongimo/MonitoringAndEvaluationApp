@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using MonitoringAndEvaluationApp.Models;
@@ -24,6 +23,10 @@ namespace MonitoringAndEvaluationApp.Views
            AssignProperties(p);
         }
 
+        private void ShowMore(object o, EventArgs E)
+        {
+            Navigation.PushAsync(new ProjectMoreDetails(project));
+        }
         private void AssignProperties(Project p)
         {
             projectName.Text += p.ProjectName;
@@ -35,7 +38,6 @@ namespace MonitoringAndEvaluationApp.Views
             peopleInvolved.Text += p.PeopleInvolved;
             partnerOrganizations.Text += p.PartnerOrganizations;
             partnerInstituitions.Text += p.PartnerInstituitions;
-
         }
 
         private void RemoveProject(object sender, EventArgs e)

@@ -7,7 +7,7 @@
              >
             
         <ContentPage.ToolbarItems >
-            <ToolbarItem Text="Adicionar"  Clicked="AddProject" />
+            <ToolbarItem Text="Adicionar"   />
         </ContentPage.ToolbarItems>
 
         <StackLayout>
@@ -15,11 +15,11 @@
                   BackgroundColor="Transparent"
                   ItemSelected="HandleSelectedItem"
                   >
-                <ListView.ItemTemplate>
-                    <DataTemplate >
-                        <TextCell TextColor="Black" Text="{Binding ProjectName}" Detail="{Binding OperatorName}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <TextCell TextColor="Black" Text="{Binding ProjectName}" Detail="{Binding OperatorName}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         </StackLayout>
 </ContentPage>

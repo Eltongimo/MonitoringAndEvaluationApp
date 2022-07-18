@@ -19,3 +19,10 @@ C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluation
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\MonitoringAndEvaluationApp.dll
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\refint\MonitoringAndEvaluationApp.dll
 C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\MonitoringAndEvaluationApp.pdb
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\bin\Debug\netstandard2.0\MonitoringAndEvaluationApp.deps.json
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\bin\Debug\netstandard2.0\MonitoringAndEvaluationApp.dll
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\bin\Debug\netstandard2.0\MonitoringAndEvaluationApp.pdb
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\ref\MonitoringAndEvaluationApp.dll
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\AddNewProjectMoreDetails.xaml.g.cs
+C:\Users\EltonUG\source\repos\MonitoringAndEvaluationApp\MonitoringAndEvaluationApp\obj\Debug\netstandard2.0\Views\ProjectMoreDetails.xaml.g.cs

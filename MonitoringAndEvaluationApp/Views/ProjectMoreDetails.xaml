@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonitoringAndEvaluationApp.Views.ProjectMoreDetails"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Mais detalhes"
+             >
+
+    <ContentPage.Content>
+        <StackLayout Padding="10, 10,10,10">
+            <Frame 
+            BorderColor="#ccc"
+            CornerRadius="5"
+            BackgroundColor="White"
+            HasShadow="True"
+            Padding="10"
+            Margin="5">
+                <Grid>
+                    <Label  Grid.Row="1" FontAttributes="Bold" Text="Projecto: " Grid.Column="0" x:Name="projectName" FontSize="Medium" LineBreakMode="TailTruncation" VerticalOptions="End"/>
+                    <Label  Grid.Row="2" Grid.Column="0" Text="Data: " x:Name="date" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="3" Grid.Column="0" Text="Lugar: " x:Name="location" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="4" Grid.Column="0" Text="Time: " x:Name="time" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="5" Grid.Column="0" Text="Duração: " x:Name="duration" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="6" Grid.Column="0" Text="Pessoas Presentes: " x:Name="presentPeople" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="7" Grid.Column="0" Text="Pessoas Previstas: " x:Name="forecastedPeople" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="8" Grid.Column="0" Text="Participaçoes parceiros: " x:Name="participationPartners" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="9" Grid.Column="0" Text="Participaçoes beneficiarios: " x:Name="participationBeneficiary" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="10" Grid.Column="0" Text="Participaçoes Instituiçoes: " x:Name="participationInstituition" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="11" Grid.Column="0" Text="Outcome de actividade: " x:Name="productOutCome" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="12" Grid.Column="0" Text="Indicador QL:" x:Name="qlIndicator" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="13" Grid.Column="0" Text="Boas praticas aprendidas: " x:Name="goodPraticesLearned" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="14" Grid.Column="0" Text="Erros a não ser repetidos: " x:Name="mistakesToNotBeRepeated" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="15" Grid.Column="0" Text="Encaminhamentos futuros: " x:Name="futureForwarding" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                    <Label  Grid.Row="16" Grid.Column="0" Text="Encaminhamentos futuros: " x:Name="sourcesAndImages" FontSize="Medium" LineBreakMode="TailTruncation" FontAttributes="Italic"  VerticalOptions="End"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

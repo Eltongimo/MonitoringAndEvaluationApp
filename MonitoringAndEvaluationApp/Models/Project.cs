@@ -15,11 +15,15 @@ namespace MonitoringAndEvaluationApp.Models
         public string  TypeOfActivity { get; set; }
         public string MacroActivity { get; set; }
         public string SpecificObjective { get; set; }
-        
+        //**
+        public string ImpactEvaluation { get; set; }
+        //**
+        public string LevelOfConseguimento { get; set; }
+        //**
+        public string NecessaryActions { get; set; }
         public string PeopleInvolved { get; set; }
         public string PartnerOrganizations { get; set; }
         public string PartnerInstituitions { get; set; }
-
         public string Date { get; set; }
         public string Time { get; set; }
         public string Location { get; set; }

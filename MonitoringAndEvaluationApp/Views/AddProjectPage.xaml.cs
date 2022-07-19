@@ -51,6 +51,8 @@ namespace MonitoringAndEvaluationApp.Views
                 MistakesToNotBeenRepeated = mistakesToNotBeRepeated.Text,
                 FutureForwarding = futureForward.Text,
                 SourcesAndImages = imagesAndSources.Text,
+                ImpactEvaluation = evaluationImpact.Text,
+                LevelOfConseguimento = levelOfConseguimento.Text
         };
             
             SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);
@@ -61,14 +63,13 @@ namespace MonitoringAndEvaluationApp.Views
 
             if (rows > 0)
             {
-                DisplayAlert("Sucess", "Succesfully!", "Ok");
+                DisplayAlert("Sucesso", "Dados cadastrados com sucesso", "Ok");
             }
             else
             {
-                DisplayAlert("Failure", "Failded!", "Ok");
+                DisplayAlert("Falha", "Falha no cadastro!", "Ok");
             }
-
-            Navigation.PushAsync(new TaticoAddToProject());
+            Navigation.PopAsync();
         }
     }
 }

@@ -13,6 +13,10 @@
             <Entry Placeholder="Nome do operador" x:Name="operatorName"/>
 
             <Entry  Placeholder="Actividade" x:Name="activity"/>
+ 
+            <Entry Placeholder="Avaliação de Impacto" x:Name="evaluationImpact"/>
+
+            <Entry Placeholder="Nivel de conseguimento" x:Name="levelOfConseguimento"/>
 
             <Entry  Placeholder="Tipo de Actividade" x:Name="typeOfActivity"/>
 

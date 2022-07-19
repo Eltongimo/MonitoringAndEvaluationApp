@@ -20,6 +20,22 @@ namespace MonitoringAndEvaluationApp.Views
         {
             InitializeComponent();
             project = p;
+            AssignProperties(project);
+        }
+
+        private void AssignProperties(Project p)
+        {
+
+            projectName.Text += p.ProjectName;
+            specificObjective.Text += p.SpecificObjective;
+            activity.Text += p.Activity;
+            levelOfConseguimento.Text += p.LevelOfConseguimento;
+            partenersInstituition.Text += p.ParticipationInstituition;
+            partners.Text += p.PartnerOrganizations;
+            partnersBeneficiaries.Text += p.ParticipationBeneficiary;
+            impactEvaluation.Text += p.ImpactEvaluation;
+            necessaryActions.Text += p.NecessaryActions;
+
         }
 
         protected override void OnAppearing()
